@@ -179,6 +179,31 @@ const park = {
   designation: "National Park"
 };
 
+export const parkInfoLinks = [
+  {
+    name: "Current Conditions &#x203A;",
+    link: "conditions.html",
+    image: "https://www.nps.gov/common/uploads/grid_builder/crop16_9/F3CF233A-D445-364D-EC4CD06A498E4F91.jpg",
+    alt: park.images[2].altText,
+    description:
+      "See what conditions to expect in the park before leaving on your trip!"
+  },
+  {
+    name: "Fees and Passes &#x203A;",
+    link: "fees.html",
+    image: "https://www.nps.gov/common/uploads/grid_builder/crop16_9/1041962C-1DD8-B71B-0B8E77BA2E1EA0E8.jpg",
+    alt: park.images[3].altText,
+    description: "Learn about the fees and passes that are available."
+  },
+  {
+    name: "Visitor Centers &#x203A;",
+    link: "visitor_centers.html",
+    image: "https://www.nps.gov/common/uploads/grid_builder/crop16_9/C58775A9-C067-845D-B68CF80F484EF8FA.jpg",
+    alt: park.images[9].altText,
+    description: "Learn about the visitor centers in the park."
+  }
+];
+
 export function getParkData() {
   return park;
 }
