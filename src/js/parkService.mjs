@@ -12,14 +12,14 @@ const parkInfoLinks = [
   },
   {
     name: "Fees and Passes &#x203A;",
-    link: "#",
+    link: "fees.html",
     image: "",
     alt: "",
     description: "Learn about the fees and passes that are available."
   },
   {
     name: "Visitor Centers &#x203A;",
-    link: "#",
+    link: "visitor_centers.html",
     image: "",
     alt: "",
     description: "Learn about the visitor centers in the park."
